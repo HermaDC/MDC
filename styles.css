@@ -1,0 +1,29 @@
+
+#heder{
+    color: white;
+    background-color: black;
+}
+#heder h1{
+    margin: 0px;
+}
+body{
+    margin: 0px 0px;
+    font-family: sans-serif;
+}
+#heder ul{
+    list-style: none;
+    overflow: hidden;
+}
+#heder li{
+    float: left;
+    margin: 0 10px 0 0;
+    color: white;
+    
+}
+#heder ul a{
+    color: white;
+    text-decoration: none;
+}
+#heder ul a:hover{
+    color: #cccccc;
+}
