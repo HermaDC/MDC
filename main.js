@@ -11,7 +11,7 @@ function activamodo(){
         document.getElementById("mo").href = "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.1.3/darkly/bootstrap.min.css";
         modo = true;
         document.cookie = "modoos=true; expires=Fri, 31 Dec 2024 23:59:59 GMT";
-        alert(document.cookie + "hola");
+        //alert(document.cookie + "hola");
     }else{
         document.getElementById("mo").href = "";
         modo = false;
@@ -45,5 +45,6 @@ function readCookie(name) {
   
   }
 var micookie = readCookie( "modoos" );
+alert(micookie);
 modooscuro.addEventListener('click',activamodo);
 cuerpo.addEventListener('click', cerrar)
