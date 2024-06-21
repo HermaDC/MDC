@@ -12,21 +12,25 @@
 <body>
 
     <div id="heder">
-        <h1  class=""  align="center"><b>Proyects</b></h1>
+        <h1 align="center"><b>Proyects</b></h1>
         <h2 align="center" id="holo"> by HermaDC</h2>
-        <ul>
+        <ul class="nav">
             <li ><a href="index.html">inicio</a></li>
             <li><a href="descargas.html">descargas</a></li>
-            <li><a href="Modo-Oscuro.html">modo oscuro</a></li>
+            <li id="activar_modooscuro">modo oscuro</li>
+
+            <div class="switch-button">
+                <label for="switch-label" class="switch-button__label"></label>
+                <!-- Checkbox -->
+                <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox" value="">
+                <!--<input type="checkbox" id="hola">-->
+                <!-- Botón -->
+            </div>
+
+
         </ul>
-    
     </div>
-    <div class="switch-button">
-        <!-- Checkbox -->
-        <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
-        <!-- Botón -->
-        <label for="switch-label" class="switch-button__label"></label>
-    </div>
+
     <div id="body">
         <p>si quieres un descargarte generador de números aleatorios en .apk pincha <a download="random" href="scr/random.apk">aquí</a></p>
         <p>si quieres un creador de contraseñas pulsa <a download="password creator.py" href="scr/password creator.py">aqui</a> 
@@ -36,6 +40,8 @@
         <p>si deseas un escaner de codigos de barras para android descargatelo de <a download="leerctor_codigo_de_barras.apk" href="scr/Barcode.apk"> este</a> enlace</p>
 
     </div>
+
+    
     <div id="menu-foot">
         <p align="center">
             <img src="./src/img/instagram.png" style="margin-left: 16px; margin-right: 16px;">
@@ -43,7 +49,7 @@
             <img src="./src/img/youtube.png" style="margin-left: 16px; margin-right: 16px;">
         </p>
        <p align="center">All of this content is under creative commons</p>
-       <p align="center"><img align="center" src="./scr/img/cc.png" id="cccc"></p>
+       <p align="center"><img align="center" src="Pagina Web\src\img\cc.png" id="cccc"></p>
        
     </div>
     <script src="main.js"></script>

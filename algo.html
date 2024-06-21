@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Read Text File Tutorial</title>
+  </head>
+  <body>
+    <input type="file" onchange="loadFile(this.files[0])">
+    <br>
+    <pre id="output"></pre>
+    <script>
+      async function loadFile(file) {
+        let text = await file.text();
+        document.getElementById('output').textContent = text;
+      }
+    </script>
+  </body>
+</html>
