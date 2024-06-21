@@ -1,4 +1,44 @@
 
+
+
+:root {
+    --color-green: #000000;
+    --color-red: #1050c7d5;
+    --color-button: #fdffff;
+    --color-black: #000;
+}
+.switch-button {
+    display: inline-block;
+}
+.switch-button .switch-button__checkbox {
+    display: none;
+}
+.switch-button .switch-button__label {
+    background-color: var(--color-red);
+    width: 5rem;
+    height: 3rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-button);
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}
+
 #heder{
     color: white;
     background-color: black;
@@ -7,7 +47,7 @@
     color: white;
     background-color: rgba(37, 37, 37, 0.582);
     height: 150px;
-    place-content: bottom;
+    
 }
 #heder h1{
     margin: 0px;
@@ -21,16 +61,19 @@ body{
 #heder ul{
     list-style: none;
     overflow: hidden;
+    margin: 10px;
+    padding: 0px 0px 0px 40px;
 }
 #heder li{
     float: left;
-    margin: 0 10px 0 0;
+    margin: 0px 10px 0px 0px;
     color: white;
     
 }
 #heder ul a{
     color: white;
     text-decoration: none;
+
 }
 #heder ul a:hover{
     color: #cccccc;
@@ -41,4 +84,19 @@ body{
 }
 #cccc{
 align-content: center;
+}
+#holo{
+    margin: 0px;
+    font-size: 39px;
+    size: 732px 44px;
+    font-family: sans-serif;
+}
+#holo ::after{
+    margin: 0px;
+    font-size: 39px;
+    size: 732px 44px;
+    font-family: sans-serif;
+}
+#desp{
+    display: none;
 }
