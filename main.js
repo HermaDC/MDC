@@ -59,3 +59,15 @@ modeSlider.checked = darkMode === 'true';
 modeSlider.addEventListener('change', (event) => {
   applyMode(event.target.checked);
 });
+
+//Enseñar menu cuando se hace click
+document.getElementById("menu").addEventListener("click",function(){
+
+    document.getElementById("navega").classList.toggle("mostrar");
+  });
+//cerrar menu
+//cambiar menu y mostrar
+document.getElementById("cruz-menu").addEventListener("click",function(){
+
+    document.getElementById("navega").classList.toggle("mostrar");
+  });

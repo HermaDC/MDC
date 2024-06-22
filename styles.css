@@ -1,4 +1,3 @@
-
 :root {
     --color-green: #ffffff;
     --color-red: #5184e4ce;
@@ -97,4 +96,28 @@ align-content: center;
 }
 #desp{
     display: none;
+}
+nav {
+  
+    width:20%;
+    max-height:0px;
+    overflow:hidden;
+    transition: 0.5s all; 
+    background-color: #696969;
+   
+}
+  .mostrar {
+        max-height:500px;
+  }
+#rayas-menu{
+    fill: #6c6b6b;
+}
+#activar_modooscuro{
+    size: 5%;
+    float: left;
+    margin: 0px;
+}
+#cruz-menu{
+    float: right;
+    margin-left: 30px;
 }
