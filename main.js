@@ -66,7 +66,7 @@ document.getElementById("menu").addEventListener("click",function(){
     document.getElementById("navega").classList.toggle("mostrar");
   });
 //cerrar menu
-//cambiar menu y mostrar
+
 document.getElementById("cruz-menu").addEventListener("click",function(){
 
     document.getElementById("navega").classList.toggle("mostrar");
