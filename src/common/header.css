@@ -1,0 +1,42 @@
+header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #444;
+}
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  background-color: inherit;
+}
+nav{
+  display: flex;
+  text-align: center;
+  padding: 0;
+  justify-content: center;
+  background-color: inherit;
+  
+}
+ul{
+  display: flex;
+  list-style: none;
+  background-color: inherit;
+  border-radius: 10px;
+}
+a {
+  color: white;
+
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+footer{
+  background-color: #444;
+  color: white;
+  text-align: center;
+
+}
+
+footer img{
+  width: 100px;
+  margin: 1rem;
+}

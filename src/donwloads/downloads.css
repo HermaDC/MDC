@@ -1,0 +1,32 @@
+.download-card{
+    position: relative;
+    margin: 1.5rem;
+    padding: 1rem;
+    border: 1px;
+    background-color: #444;
+    border-radius: 15px;
+    width: auto;
+    height: 300px;
+    text-align: center;
+
+}
+.download-card-header {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente el contenido */
+}
+
+h2 {
+    flex-grow: 1; 
+    text-align: center; /* Centra el texto del h2 */
+    margin: 0;
+    background-color: inherit;
+}
+
+.download-card-header a {
+    display: flex; /* Hace que el svg se alinee correctamente */
+    align-items: center; /* Alinea el svg verticalmente con el h2 */
+}
+svg{
+    width: 50px;
+}
